@@ -1,4 +1,4 @@
-package Functinalinterfaces.userdefined;
+package Functinalinterfaces.userdefined.Userdefined1;
 
 // ---------------------- User Defined Interfaces Example ----------------------
 
