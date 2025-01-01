@@ -27,3 +27,17 @@ public static void storeObjects() {
         }
     }
 }
+Creates an Object array named object containing a String, another String, and an Integer.
+Iterates through each element in the object array using an enhanced for loop.
+Inside the loop:
+Checks if the current element (ob) is an instance of String using ob instanceof String.
+If the element is not a String, it throws an ArrayStoreException with a specific message indicating the incompatible type.
+If all elements are Strings, it prints a success message.
+
+**main() Method**
+
+Calls the storeObjects() method within a try-catch block.
+The try block attempts to execute the storeObjects() method.
+If an ArrayStoreException occurs during the execution of storeObjects(), the catch block will:
+Print an error message indicating that an ArrayStoreException occurred.
+Print the exception message provided by the ArrayStoreException object.
