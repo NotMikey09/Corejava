@@ -45,19 +45,4 @@ This document provides a brief overview of key Core Java concepts: Functional In
     * Improved application responsiveness.
     * Enhanced performance in multi-core systems.
     * Ability to handle multiple tasks simultaneously.
-
-**Example (Illustrating Lambda Expression with a Functional Interface):**
-
-```java
-interface MyInterface {
-    String greet(String name);
-}
-
-public class FunctionalInterfaceExample {
-    public static void main(String[] args) {
-        // Using lambda expression
-        MyInterface greeting = name -> "Hello, " + name + "!"; 
-        String result = greeting.greet("World");
-        System.out.println(result); // Output: Hello, World!
-    }
-}
+      
